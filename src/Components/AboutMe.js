@@ -16,7 +16,7 @@ const AboutMe = () => {
                     Hello! My name is William. I am a Full-Stack Web Developer and I have experience in using technologies such as React, Express,Node.js, Postgres, Python, and more.
                     <br/>
                     <br/>
-                    I am a recent graduate from the Bloomtech Institute of Technology and am looking to join a company that seeks to actualize people's goals through coding. On the side, I am also a gaming enthusiast, horror movie aficionado, and an at-home latte artist!
+                    I am a recent graduate from the Bloomtech Institute of Technology and am looking to join a company that seeks to actualize people's goals through coding. On the side, I am also a gaming enthusiast, an at-home latte artist, and the leader/mediator of my local gay men's discussion group!
                     <br/>
                     <br/>
                     I have worked on a several projects that involved independent coding, pair programming, and Agile software development practices in group settings. Currently, I'm looking for the new big project to add to my portfolio to expand my coding language/framework repertoire as well as further my own creative endeavors.
