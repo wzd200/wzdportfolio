@@ -9,6 +9,7 @@ import {
     LinkedinShareButton,
     LinkedinIcon
 } from 'react-share';
+import { Link } from 'react-scroll';
 
 const Footer = () => {
     return (
@@ -29,18 +30,18 @@ const Footer = () => {
                     <div className='col-lg-3 col-md-2 col-sm-6'>
                         <div className='row'>
                             <div className='col'>
-                                <a className='footer-nav' href='/'>Home</a>
+                                <Link href='/' smooth={true} to='home' offset={-70} className='footer-nav' href='/'>Home</Link>
                                 <br/>
-                                <a className='footer-nav' href='/'>About Me</a>
+                                <Link href='/' smooth={true} to='about' offset={-70} className='footer-nav' href='/'>About Me</Link>
                                 <br/>
-                                <a className='footer-nav' href='/'>Services</a>
+                                <Link href='/' smooth={true} to='services' offset={-70} className='footer-nav' href='/'>Services</Link>
                             </div>
                             <div className='col'>
-                                <a className='footer-nav' href='/'>Experience</a>
+                                <Link href='/' smooth={true} to='experience' offset={-70} className='footer-nav' href='/'>Experience</Link>
                                 <br/>
-                                <a className='footer-nav' href='/'>Portfolio</a>
+                                <Link href='/' smooth={true} to='portfolio' offset={-70} className='footer-nav' href='/'>Portfolio</Link>
                                 <br/>
-                                <a className='footer-nav' href='/'>Contact Me</a>
+                                <Link href='/' smooth={true} to='contact' offset={-70} className='footer-nav' href='/'>Contact Me</Link>
                             </div>
                         </div>
                     </div>
