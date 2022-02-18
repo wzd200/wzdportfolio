@@ -27,7 +27,7 @@ const Experience = () => {
                 <div className='marker'></div>
                 <div className='timeline-content'>
                     <h3>2021</h3>
-                    <p>I participated in the Bloomtech Institute of Technology's labs program, where I was selected as a backend engineer for a project that built for, and ultimately shipped to the Human Right's First association. The goal of the project was to build an application that would assist lawyers working asylum cases by visualizing judge's trends with sanctioning asylum based on specific arguments made in court.</p>
+                    <p>I participated in the Bloomtech Institute of Technology's labs program, where I was selected as a backend engineer for a project that built for, and ultimately shipped to the Human Right's First association. The goal of the project was to build an application that would visualize asylum judge's trends when it comes to sanctioning or denying asylum to asylum-seekers. This application would be built specifically for lawyers working on asylum cases to help them choose arguments that will hopefully sway a judge's opinion towards granting asylum.</p>
                 </div>
             </div>
             {/* - */}

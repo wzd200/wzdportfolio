@@ -43,7 +43,7 @@ const Portfolio = () => {
             <>
                 <img className='portfolio-image-popupbox' src={underdogDevs} alt='Underdog Devs Project' />
                 <p>The back-end portion of this project was built by a team using Node.js, Express, and Postgres.</p>
-                <p>Personal Contribution: Designed and wrote the foundational back-end code for a greenfield project.</p>
+                <p>Personal Contribution: Designed and wrote the foundation of the back-end code for a greenfield project.</p>
                 <b>Github Link:</b>
                 <a className='hyperlink' href='/' onClick={() => window.open('https://github.com/BloomTech-Labs/underdog-devs-be-a')}>https://github.com/BloomTech-Labs/underdog-devs-be-a</a>
                 <br/>
@@ -113,7 +113,6 @@ const Portfolio = () => {
         })
     }
     /* --- */
-    
     // Potluck Organizer
     const openPopupboxPotluckOrganizer = () => {
         const content = (
