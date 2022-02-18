@@ -48,32 +48,32 @@ const Footer = () => {
                         <div className='d-flex justify-content-center'>
                             <FacebookShareButton
                                 className='share-icon'
-                                url={'google.com'}
-                                quote={'William Dye is a Fullstack Developer'}
+                                url={'https://www.linkedin.com/in/william-dye-a9a4411ba/'}
+                                quote={'William Dye is a Web Developer'}
                                 hashtag='#WZDdeveloper'
                             >
                                 <FacebookIcon className='mx-3' size={36}/>
                             </FacebookShareButton>
                             <TwitterShareButton
                                 className='share-icon'
-                                url={'google.com'}
-                                quote={'William Dye is a Fullstack Developer'}
+                                url={'https://www.linkedin.com/in/william-dye-a9a4411ba/'}
+                                quote={'William Dye is a Web Developer'}
                                 hashtag='#WZDdeveloper'
                             >
                                 <TwitterIcon className='mx-3' size={36}/>
                             </TwitterShareButton>
                             <RedditShareButton
                                 className='share-icon'
-                                url={'google.com'}
-                                quote={'William Dye is a Fullstack Developer'}
+                                url={'https://www.linkedin.com/in/william-dye-a9a4411ba/'}
+                                quote={'William Dye is a Web Developer'}
                                 hashtag='#WZDdeveloper'
                             >
                                 <RedditIcon className='mx-3' size={36}/>
                             </RedditShareButton>
                             <LinkedinShareButton
                                 className='share-icon'
-                                url={'google.com'}
-                                quote={'William Dye is a Fullstack Developer'}
+                                url={'https://www.linkedin.com/in/william-dye-a9a4411ba/'}
+                                quote={'William Dye is a Web Developer'}
                                 hashtag='#WZDdeveloper'
                             >
                                 <LinkedinIcon className='mx-3' size={36}/>
