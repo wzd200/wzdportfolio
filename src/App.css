@@ -136,7 +136,7 @@ nav ul li {
 .main-info h1 {
   color: var(--primary-white);
   text-transform: uppercase;
-  margin-top: 5rem;;
+  margin-top: 5rem;
 }
 
 @media(max-width: 768px) {
@@ -375,6 +375,7 @@ nav ul li {
 
 .portfolio-image {
   width: 15rem !important;
+  height: 8rem;
   border: 1px solid var(--primary-orange);
   padding: 0.5rem 0.5rem;
 }

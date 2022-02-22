@@ -5,12 +5,38 @@ import marketplace from '../Screen Shot 2022-02-15 at 4.32.44 PM.png';
 import portfolio from '../Screen Shot 2022-02-15 at 4.49.57 PM.png';
 import humanRightsFirst from '../Screen Shot 2022-02-15 at 5.29.35 PM.png';
 import underdogDevs from '../Screen Shot 2022-02-15 at 5.29.55 PM.png';
+import weatherDrop from '../Screen Shot 2022-02-21 at 11.10.33 PM.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearchPlus } from '@fortawesome/free-solid-svg-icons';
 import { PopupboxManager, PopupboxContainer } from 'react-popupbox';
 import 'react-popupbox/dist/react-popupbox.css';
 
 const Portfolio = () => {
+    // Empamamas
+    const openPopupboxWeatherDrop = () => {
+        const content = (
+            <>
+                <img className='portfolio-image-popupbox' src={weatherDrop} alt='Weather Drop Project' />
+                <p>This project was built with React and Bootstrap.</p>
+                <b>Github Link:</b> <a className='hyperlink' href='/' onClick={() => window.open('https://github.com/wzd200/weatherapp-sri-will')}>https://github.com/wzd200/weatherapp-sri-will</a>
+                <br/>
+                <b>Deployed Link:</b> <a className='hyperlink' href='/' onClick={() => window.open('https://weatherapp-sri-will.vercel.app/')}>https://weatherapp-sri-will.vercel.app/</a>
+            </>
+        )
+        PopupboxManager.open({
+            content,
+            config: {
+                titleBar: {
+                    enable: true,
+                    text: "Weather Drop Project"
+                },
+                fadeIn: true,
+                fadeInSpeed: 500
+            }
+        })
+    }
+
+    /* --- */
     // Portfolio
     const openPopupboxPortfolio = () => {
         const content = (
@@ -161,12 +187,19 @@ const Portfolio = () => {
             }
         })
     }
+    /* --- */
 
     return (
         <div id='portfolio' className='portfolio-wrapper'>
             <div className='container'>
                 <h1 className='text-uppercase text-center py-5'>Portfolio</h1>
                 <div className='image-box-wrapper row row-cols-auto justify-content-center'>
+                <div className='portfolio-image-box' onClick={openPopupboxWeatherDrop}>
+                        <img className='portfolio-image' src={weatherDrop} alt='Weather Drop Project'/>
+                        <div className='overflow'></div>
+                        <FontAwesomeIcon className='portfolio-icon' icon={faSearchPlus} />
+                    </div>
+                    {/*-*/}
                     <div className='portfolio-image-box' onClick={openPopupboxPortfolio}>
                         <img className='portfolio-image' src={portfolio} alt='William Dye Portfolio Project'/>
                         <div className='overflow'></div>
