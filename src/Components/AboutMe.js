@@ -13,7 +13,7 @@ const AboutMe = () => {
             <div className='aboutMe col-lg-9 col-xm-12'>
                 <h2 className='about-header mt-3 mb-3'>About Me</h2>
                 <p>
-                    Hello! My name is William. I am a Full-Stack Web Developer and I have experience in using technologies such as React, Express,Node.js, Postgres, Python, and more.
+                    Hello! My name is William. I am a Full-Stack Web Developer and I have experience in using technologies such as React, Express, Node.js, Postgres, Python, and more.
                     <br/>
                     <br/>
                     I am a recent graduate from the Bloomtech Institute of Technology and am looking to join a company that seeks to actualize people's goals through coding. On the side, I am also a gaming enthusiast, an at-home latte artist, and the leader/mediator of my local gay men's discussion group!
